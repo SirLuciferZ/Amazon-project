@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/checkout.css" />
+    <title>Amazon Checkout</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="./home.html" class="amazon-logo-link">
+          <img
+            class="amazon-logo"
+            src="https://supersimple.dev/projects/amazon/images/amazon-logo.png"
+            alt=""
+          />
+        </a>
+        <p class="amazon-logo-info">Home page</p>
+      </div>
+      <div class="checkout-total">
+        <p>Checkout (<span class="js-total-header">0</span> items)</p>
+      </div>
+      <div class="lock">
+        <img
+          src="https://supersimple.dev/projects/amazon/images/icons/checkout-lock-icon.png"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <div class="checkout-body">
+      <h4 class="order-review">Review your order</h4>
+
+      <div class="order-sum">
+        <p class="order-summary-text">Order Summary</p>
+        <div class="total-item-container">
+          <p class="total-items">
+            Items (<span class="total-item-quantity">0</span>):
+          </p>
+          <p class="total-item-price">$0</p>
+        </div>
+        <div class="shipping-container">
+          <p class="shipping">Shipping & handling:</p>
+          <p class="shipping-price">$0</p>
+        </div>
+        <div class="tax-container">
+          <p class="before-tax">Total before tax:</p>
+          <p class="before-tax-price js-tax">$0</p>
+        </div>
+        <div class="total-tax-container">
+          <p class="total-tax">Estimated tax (10%):</p>
+          <p class="total-tax-price">$0</p>
+        </div>
+        <div class="price-container">
+          <p class="order-total">Order total:</p>
+          <p class="order-total-price">$0</p>
+        </div>
+        <button class="place-order-button">Place your order</button>
+      </div>
+      <div class="js-all-products"></div>
+    </div>
+
+    <script type="module" src="./Scripts/checkout.js"></script>
+  </body>
+</html>

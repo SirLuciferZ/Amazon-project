@@ -1,8 +1,8 @@
 # Amazon-project
 
-A basic Amazon website 
+A basic Amazon website
 
-## Languages 
+## Languages
 
 HTML, CSS, JS
 

@@ -1,0 +1,8 @@
+
+
+
+
+!   make update button interactive
+
+
+!   set the value of radio inputs inside the order summary shipping price
